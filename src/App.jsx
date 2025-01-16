@@ -17,7 +17,7 @@ function App() {
   return (
     <>
      {/* <Ludoboard/>  */}
-     {/* <TodoList/> */}
+     { <TodoList/> }
      {/* <Lottery n={3} winningSum={15} winCondition={winCondition}/> */}
      {/* <Ticket ticket={[0,1,2]}/>
      <Ticket ticket={[5,6,7,7,8]}/> */}
@@ -25,7 +25,7 @@ function App() {
       {/* {<Comment/>} */}
       {/* {<CommentsForm/>} */}
       {/* {<Counter />} */}
-      {<Joker/>}
+      {/* {<Joker/>} */}
     </>
   )
 }
