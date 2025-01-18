@@ -27,7 +27,7 @@ export default function Joker(){
             <h3>Joker</h3>
             <h2>{joke.setup}</h2>
             <h2>{joke.punchline}</h2>
-            <button onClick={getNewJoke}> New Joke</button>
+            <button onClick={getNewJoke}> New Jokes</button>
         </div>
     )
 }
