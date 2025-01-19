@@ -61,7 +61,7 @@ let markAsDone = (id) => {
 }
     return (
         <div>
-            <input placeholder = "add a new task/tasks"
+            <input placeholder = "add a new task/tass"
             value={newTodo}
              onChange={updateTodoValue}>
              </input>
