@@ -9,8 +9,9 @@ export default function Comment(){
     }]);
     let addNewComment = (comment) =>{
         setComments((currComments)=>[...currComments, comment]);
-        console.log("added new comments");
+        console.log("added new comment");
     };
+   
      return(
         <>
         <div>
