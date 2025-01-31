@@ -7,8 +7,7 @@ export default function Joker(){
     const getNewJoke = async () => {
        let response = await fetch (URL);
        let jsonResponse = await response.json();
-    //    console.log(jsonResponse);
-    //    return jsonResponse;
+   
        setJoke({setup: jsonResponse.setup, punchline:jsonResponse.punchline});
 
     };
